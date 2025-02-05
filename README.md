@@ -2,7 +2,7 @@
 
 # Week 1
 
-## Deciding on My Theme 'Digital Folklore'
+## Deciding on the theme ***Digital Folklore***
 - I want to explore the origins of how computer culture has developed
 - In my past experiments in the workshop tasks assignment, I enjoyed using humour, and I feel like I could connect this with internet identity and the idea of a 'meme'
 - Online social spaces have always fascinated me, and I love to analyse the origins of trends on Tik Tok and Instagram from an outsiders perspective, and how different comminuties have developed to be the way that they are today
