@@ -12,6 +12,8 @@ Another part of this that fascinates me is how the internet was really the first
 
 One of the first viral internet memes - Dancing Baby (1996)
 
+[Some history about the dancing baby](https://techcrunch.com/2014/06/15/a-brief-history-of-the-dancing-baby-meme/)
+
 ## Ways I would like to Explore this Theme
 
 # Week 2
