@@ -1,5 +1,3 @@
-# studio_project
-
 # Week 1
 
 ## Deciding on the theme ***Digital Folklore***
