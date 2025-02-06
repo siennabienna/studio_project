@@ -26,4 +26,6 @@ One of the first viral internet memes - Dancing Baby (1996)
 
 ## Ideas for Code
 - Some sort of interactive sketch using the user imput events learned in workshop tasks, perhaps similar to an old online forum (like very early Facebook, perhaps the user is able to navigate between different 'profiles' that all work together to discuss some type of modern day subject like AI)
+- A gallery type sketch of memories - showing parts of the early internet that has significant impacts (such as the development of URLs or the beginning of code), or perhaps things that shaped me and my internet journey (things like club penguin, early youtube, cool math games, and maybe a reference to my parents old computer that had a very loud fan and would heat up horribly) - The gallery could be a mixture of images, text, and interactive aspects like letting the user draw all over it with a pen tool
+- A desktop screensaver type of page where each icon could be opened into a new piece of interactive art - some might have silly old GIFs, some might have just text, some might have images relevant to current culture (but made to fit in the theme by turning them into GIFs or using pixels)
 
