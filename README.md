@@ -19,5 +19,11 @@ One of the first viral internet memes - Dancing Baby (1996)
 [Some history about the dancing baby](https://techcrunch.com/2014/06/15/a-brief-history-of-the-dancing-baby-meme/)
 
 ## Ways I would like to Explore this Theme
+- Making references to the internet at a crucial stage of its development - not only in the visual aspects, but also how it is coded
+- Use some type of humor that will tie it to both the origins of computer art - but also perhaps in a way that a modern internet audience would still find it humourous
+- References to wider culture in the world at the moment, communicated by early internet imagery - eg, the Trump assasination attempt shown through pixelated images (perhaps like an online version of Rauschenberg)
+- Not try to convey a storyline, but more an idea or feeling
 
-# Week 2
+## Ideas for Code
+- Some sort of interactive sketch using the user imput events learned in workshop tasks, perhaps similar to an old online forum (like very early Facebook, perhaps the user is able to navigate between different 'profiles' that all work together to discuss some type of modern day subject like AI)
+
