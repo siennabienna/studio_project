@@ -1,5 +1,7 @@
 # Week 1
 
+Link to Wepage: https://siennabienna.github.io/studio_project/
+
 ## Deciding on the theme ***Digital Folklore***
 - I want to explore the origins of how computer culture has developed
 - In my past experiments in the workshop tasks assignment, I enjoyed using humour, and I feel like I could connect this with internet identity and the idea of a 'meme'
