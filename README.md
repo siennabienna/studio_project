@@ -118,7 +118,40 @@ Here was my design for it that I made in Google Drawings:
 
 ![image](https://github.com/user-attachments/assets/102a2ec6-911f-4666-a5a1-bb99b4c7e183)
 
-Next,
+My next idea was for a slow loading image. After watching some videos on Youtube about the early internet, I found out two things - one, Bill Clinton was the first US President to send a message over email, and was very involved in making the digital age more acessable. The second thing was how images used to load. Due to the lack of processing power old computers had to modern day, images were compressed and would load slowly in chunks from bottom to top. I had an idea to try and replicate this using `set interval`.
+
+![image](https://github.com/user-attachments/assets/00b17d47-e146-4716-b7dd-88b522dd7ae2)
+
+However, I didn't have time to excute this idea.
+
+Another idea I had was to make a CD Player window.
+
+![image](https://github.com/user-attachments/assets/00fe1c50-a6d1-434b-be04-2affc5e737ef)
+
+My idea came whilst scolling through old pop-culture references online and finding an old playlist. I thought that using some sort of CD Player would make a reference to this older type of technology, as not many people need to use CDs anymore. I also thought that Backstreet Boys was relevent and I wanted to see if I could figure out how to add sound. I also had an idea to record the song through a voice message on my phone so the quality would be distorted (please don't come for me copyright) and would feel more like a lower definition version that would have been more common back then. I also feel like there was a large [community of people who would pirate media](https://thenextweb.com/news/a-nostalgic-look-back-at-digital-music-piracy-in-the-2000s) back when the World Wide Web was created.
+
+My finished drawing of the CD player:
+
+![image](https://github.com/user-attachments/assets/270e4eb3-9074-498d-a0c6-38ff777c7c88)
+
+My next idea was for a slow loading screen. I thought of maybe making an old Youtube page that would never load, as it is a large part of old digital culture that everything took forever to load due to the processing power of old computers. I also wanted to draw on the shared human experience of the frustration of waiting for things to load. I think another aspect of it for me was to create something that would also test the user - how long would they look at a loading screen in my sketch before realising that it's not coded to play anything?
+
+![image](https://github.com/user-attachments/assets/9284059d-71fc-4b72-9b51-a479e74376af)
+
+I decided instead to make an MP3 player, and put my favourite movie, Titanic, in as the movie that would 'play'. I felt that this movie was period accurate. I plan on finding some sort of API for the loading screen.
+
+My finished drawing for the Media Player:
+
+![image](https://github.com/user-attachments/assets/c69e7109-3807-4c15-ae40-bb5eadca8caa)
+
+My last idea was for an old coding window that would allow for the coding world to become part of the artwork. I wanted the user to remember that the desktop was made using an alorithim and be shown the hard work that goes into that. 
+
+![image](https://github.com/user-attachments/assets/335edafd-07e0-4795-8a70-1ed78b87d4cb)
+
+After some research, I found an old coding platform released in 2005 called [Code::Blocks](https://en.wikipedia.org/wiki/Code::Blocks) that I thought would make it timeline-relevant. My initial idea was to put the code for ***My Boyfriend Came Back From the War*** by Olia Lialina (from my artist research) in the window to make reference and pay homage to the earliest digital artsits that paved the way for modern day digital art. However, after a bit of deliberation, I thought that I would put some of the code from my own project in there to break the 4th wall, and to also let the code behind the artwork become part of the artwork itself. 
+
+I also decided I wanted to put my MS Paint webcam window in there from the Workshop Assignment as I was very proud of it, and I thought it was a good way to make reference to the earliest webcams developed in 1994, which were very grainy. With the pixel effect I felt my webcam emulated this.
+
 
 ## Coding the MS Paint Window
 
