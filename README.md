@@ -298,7 +298,7 @@ After some feeback from some peers, I was advised to make it so that pressing th
 
 After adding the same open and close setup to this window, all I had to do was find an appropriate way to make the loading screen. I thought of maybe finding an API that would allow me to do this, but then after some research, I found that the Windows 95 loading screen was a very cute hourglass that would be easist to include by finding a GIF. 
 
-I found the GIF I wanted to use online, and then I found a [p5 sketch](https://editor.p5js.org/kjhollen/sketches/S1bVzeF8Z) to use as a reference of how to put the GIF into the code. The trouble with using a GIF is that they can't be drawn on the canvas like regular images because then they wouldn't move. However after some research I found that images that sit on top of the canvas, like the 'void' I used to make the drawing clickable, can display the animation of a GIF.
+I found the GIF I wanted to use online, and then I found a [p5 sketch](https://editor.p5js.org/kjhollen/sketches/S1bVzeF8Z) to use as a reference of how to put the GIF into the code. The trouble with using a GIF is that it can't be drawn on the canvas like regular images because then they wouldn't move. However, after some research I found that images that sit on top of the canvas, like the 'void' I used to make the drawing clickable, can display the animation of a GIF.
 
 ```js
   hourglassImg = createImg("hourglass.gif");
@@ -309,13 +309,33 @@ I found the GIF I wanted to use online, and then I found a [p5 sketch](https://e
 Since the GIF works like the 'void' images, I had to add the code to create it to `addButtons()`.
 
 ## Coding the Internet Explorer
+After coding the previous windows, I came up with the idea for an Internet Explorer Window. This would make reference to the early use of the World Wide Web and people who would create thier own sites online for niche interests. I wanted to play on this, and also add a download button that would create a 'cat virus' that would bombard the screen with old cat memes. 
 
-I made a clickable download button with the 'void' image technique, and I wrote a function `showCats()`, that uses a for loop to add a bunch of clickable images of cats, by picking random strings from a list of image file names `catPictures`. The function then positions the image randomly on the screen, and I used an anonymous function so that when the user clicks on a cat image, the image closes.
+![image](https://github.com/user-attachments/assets/950763ff-a1c3-4206-9a33-46b82b4bf6e9)
+
+I had quite a lot of fun designing this one.
+
+Starting with the same open and close setup, I made a window with a clickable download button with the 'void' image technique. I then wrote the function `showCats()`, that uses a for loop to add a bunch of clickable images of cats, by picking random strings from a list of image file names `catPictures`. The function then positions the image randomly on the screen, and I used an anonymous function so that when the user clicks on a cat image, the image closes.
+
+```js
+  closeInternetBtn = createImg("void.png");
+  virusButton = createImg("void.png");
+  closeInternetBtn.hide();
+  virusButton.hide();
+  closeInternetBtn.position(internetX + internetWidth - 25, internetY);
+  virusButton.position(internetX + 200, internetY + 270);
+  closeInternetBtn.size(25, 25);
+  virusButton.size(250, 50);
+  virusButton.mousePressed(showCats);
+  closeInternetBtn.mousePressed(closeInternet);
+```
 
 ## Coding the Online Forum
 
-- I added an input box and a button, and I made the input box transparent using CSS
-- The regular font didn't work well, so I asked ghen and he helped me add some code to the HTML that grabs a font from a font file and sets it as the font for the whole website, with CSS.
+To make the Online Forum window, I wanted it to operate like the simple user input code I made during the poem workshop in the last assignment. I added an input box and a button, and I made the input box transparent using CSS, as I learned to do in the last assignment.
+
+The regular font seemed to have a bug in it, and the letters were being drawn overtop of each other, so I asked my coding friend Ghen for help. He helped me add some code to the HTML that grabs a font from a font file and sets it as the font for the whole website, with CSS.
+
 ```css
 <style>
   @font-face {
@@ -329,7 +349,7 @@ I made a clickable download button with the 'void' image technique, and I wrote 
 </style>
 ```
 
-- I added an array variable to store all the messages the user sends on the forum. When they press the Send button, I added a function addMessageToForum() that saves what the user wrote in the array, then clears the input box and refreshes the drawing.
+I added an array variable to store all the messages the user sends on the forum. When they press the Send button, I added a function `addMessageToForum()` that saves what the user wrote in the array, then clears the input box and refreshes the drawing.
 
 ```js
 function addMessageToForum() {
@@ -339,7 +359,7 @@ function addMessageToForum() {
 }
 ```
 
-- In the function that draws the forum window, I added some code that writes all the messages stored in the array with text() commands. For this to look right, I used the loadFont() function to be able to use a custom font font in p5. I read how to use the function on [this page](https://p5js.org/reference/p5/loadFont/#:~:text=loadFont()%20can%20load%20fonts,canvas%20and%20in%20HTML%20elements.)
+In the function that draws the forum window, I added some code that writes all the messages stored in the array with `text()` commands. For this to look right, I used the `loadFont()` function to be able to use a custom font font in p5. I refreshed my memory for this function on [this page](https://p5js.org/reference/p5/loadFont/#:~:text=loadFont()%20can%20load%20fonts,canvas%20and%20in%20HTML%20elements.).
 
 ```js
 let messages = [];
@@ -354,19 +374,44 @@ function drawUsenet() {
   text('Type Your Response... ', usenetX + 35, usenetY + 430);
 }
 ```
-- While coding this I ran into a bug where my code wouldn't save the text of the message into the array, but the whole function to get the value of the input box, as text. Since for the next window I had to display some code, I thought I could use this to get some of the code of my project to show up in the project itself.
+While coding this I ran into a bug where my code wouldn't save the text of the message into the array, but the whole function to get the value of the input box, as text. Since for the next window I had to display some code, I thought I could use this to get some of the code of my project to show up in the project itself.
 
 ## Coding the Studio Project Files
 
-- Since the text for the code was gonna be multiple lines long, I used a span. I created the span in `addButtons()`.
+Whilst planning this, I realised that the text for the code was gonna be multiple lines long, so I used a span. I created the span in `addButtons()`.
 
 ```js
 codeScreen = createSpan(addButtons);
 ```
-- I tried it out and this would create a span that has all the code for the addButtons function in it.
+I tried it out and this would create a span that has all the code for the `addButtons()` function in it.
 
-- I found that even if I set a constrained size to the span, the text would just overflow out of it. I did some research and found this [article](https://www.w3schools.com/css/css_overflow.asp), which explains you can use CSS to make it so the overflowing text is handled by adding a scrollbar to the span. I added this line here to make it work on my span.
+I found that even if I set a constrained size to the span, the text would just overflow out of it. I did some research and found this [article](https://www.w3schools.com/css/css_overflow.asp), which explains you can use CSS to make it so the overflowing text is handled by adding a scrollbar to the span. I added this line here to make it work on my span. I used the code for all the buttons in my project for this window.
 
 ```js
 codeScreen.style("overflow-y", "scroll");
 ```
+
+I then just shifted the coordinates of the textbox so that the scrollbar would sit well over the image for the window that I had made. 
+
+```js
+  closeCodeBtn = createImg("void.png");
+  closeCodeBtn.hide();
+  closeCodeBtn.position(codeX + codeWidth - 25, codeY);
+  closeCodeBtn.size(25, 25);
+  closeCodeBtn.mousePressed(closeCode);
+  codeScreen = createSpan(addButtons);
+  codeScreen.position(codeX + 20, codeY + 63);
+  codeScreen.size(374, 230);
+  codeScreen.style("overflow-y", "scroll");
+  codeScreen.hide();
+```
+# Final Refelction
+I really enjoyed the coding for this assignemnt, and once I had figured out how to open and close the windows okay with the 'void' buttons, I found I had more creative space to try out some new coding ideas, as well as develop on some of the ones I learned in the workshops assignment. I am very proud of my little desktop.
+
+# Ideas for Further Development 
+- I had some feedback from a peer in the Discord server suggesting I should attempt to fix the issue with the layering of the windows. This was a problem due to the way the windows were drawn, the webcam and the GIFs needed to be drawn every frame whilst the images were not. Unfortunatly I didn't have time to fix this, but if I was to spend more time on this project I would like to
+- Add more windows to the project that make more references to early computer culture, and perhaps even find a way to make the windows moveable and have full-screen option for each one
+- Make it so that the time in the bottom corner reflects the real time and is not just an image
+- Add a recycle bin that could be opened to have pictures and other documents in it that could be opened by the user
+- Make it so that the start button in the bottom left was able to open some type of menu
+- Add some sort of storyline to the desktop, perhaps exploring who's desktop it is and their story though some sort of scavenger hunt across the desktop
