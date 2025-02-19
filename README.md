@@ -415,3 +415,4 @@ I really enjoyed the coding for this assignemnt, and once I had figured out how 
 - Add a recycle bin that could be opened to have pictures and other documents in it that could be opened by the user
 - Make it so that the start button in the bottom left was able to open some type of menu
 - Add some sort of storyline to the desktop, perhaps exploring who's desktop it is and their story though some sort of scavenger hunt across the desktop
+- Add `setTimeout` variable that would make it so that the windows would open at a delayed response - more accurate to the time, and perhaps even add a double click requirement to open the icons
