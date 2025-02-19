@@ -1,4 +1,4 @@
-# Week 1
+# Studio Project Assignment
 
 Link to Wepage: https://siennabienna.github.io/studio_project/
 
