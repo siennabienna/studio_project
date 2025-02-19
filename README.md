@@ -1,6 +1,6 @@
 # Studio Project Assignment
 
-Link to Wepage: https://siennabienna.github.io/studio_project/
+Link to Webpage: https://siennabienna.github.io/studio_project/
 
 ## Deciding on the theme ***Digital Folklore***
 - I want to explore the origins of how computer culture has developed
