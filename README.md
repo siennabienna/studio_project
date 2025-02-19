@@ -150,6 +150,8 @@ My last idea was for an old coding window that would allow for the coding world 
 
 After some research, I found an old coding platform released in 2005 called [Code::Blocks](https://en.wikipedia.org/wiki/Code::Blocks) that I thought would make it timeline-relevant. My initial idea was to put the code for ***My Boyfriend Came Back From the War*** by Olia Lialina (from my artist research) in the window to make reference and pay homage to the earliest digital artsits that paved the way for modern day digital art. However, after a bit of deliberation, I thought that I would put some of the code from my own project in there to break the 4th wall, and to also let the code behind the artwork become part of the artwork itself. 
 
+![image](https://github.com/user-attachments/assets/a5bca215-73f2-4e9a-a123-bf6490484093)
+
 I also decided I wanted to put my MS Paint webcam window in there from the Workshop Assignment as I was very proud of it, and I thought it was a good way to make reference to the earliest webcams developed in 1994, which were very grainy. With the pixel effect I felt my webcam emulated this.
 
 
