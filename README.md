@@ -31,3 +31,74 @@ One of the first viral internet memes - Dancing Baby (1996)
 - A gallery type sketch of memories - showing parts of the early internet that has significant impacts (such as the development of URLs or the beginning of code), or perhaps things that shaped me and my internet journey (things like club penguin, early youtube, cool math games, and maybe a reference to my parents old computer that had a very loud fan and would heat up horribly) - The gallery could be a mixture of images, text, and interactive aspects like letting the user draw all over it with a pen tool
 - A desktop screensaver type of page where each icon could be opened into a new piece of interactive art - some might have silly old GIFs, some might have just text, some might have images relevant to current culture (but made to fit in the theme by turning them into GIFs or using pixels)
 
+## Preliminary Code Experiments
+I decided that the idea I connected with best was the desktop page with different icons. I decided that the best way to start experimenting with code for this idea would be to figure out how to do the background for the desktop. 
+
+### Problemsolving Window Sizing
+Desktop screens in the 90s were often in 4/3 screen ratio, so I wanted to try making it to that size. I wanted to make it so that if the browser was resized by the user, it would still maintain this ratio.
+- I want it so that the desktop always has a 4:3 ratio width to height
+- I want it so the desktop always fits inside the screen, and for it to fit it needs to be smaller that both the width and height of the screen
+- When the width is the smaller dimension, I can use that dimension as the width, and then shorten it to get the height
+- The height becomes the smaller dimension when it's less than the width scaled down by 3/4, because that means even if you scale the width down, it would still be bigger than the height measurement, thus overflowing the screen
+
+I made this preliminary code to see how it worked:
+
+```js
+function setup() { 
+  if(windowWidth > windowHeight * (4/3)) 
+    createCanvas (windowHeight * (4/3), windowHeight); 
+  else 
+    createCanvas (windowwidth, windowWidth * (3/4)); 
+} 
+function draw() { 
+  background(0); 
+} 
+function windowResized() { 
+  if(windowWidth > windowHeight * (4/3)) 
+    resizeCanvas (windowHeight * (4/3), windowHeight); 
+  else 
+  resizeCanvas (windowWidth, windowWidth * (3/4)); 
+}
+```
+
+This worked okay, but it had large white spaces and I didn't like it. I decided on a more simple approach which was just to size the canvas to the window without any ratios.
+
+```js
+let background Img;
+let width;
+let height;
+function preload() {
+  backgroundImg = loadImage("bliss.jpg");
+}
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+}
+function draw() {
+  background(0);
+  image(backgroundImg, 0, 0, windowWidth, windowHeight);
+}
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight); 
+}
+```
+In this code, I added the background 'Bliss', which was the standard background for early Windows versions.
+
+[History of the Bliss Wallpaper](https://www.pcworld.com/article/444752/the-story-behind-the-windows-xp-bliss-photo-and-what-it-looks-like-today.html)
+
+
+![image](https://github.com/user-attachments/assets/8970fcad-86c6-4dd7-9e64-b5384d929033)
+
+I was super happy with the result!
+
+## Potential Next Steps
+- I want to start designing the icons and windows that will be openable on the desktop. I want to do them in old Windows 95 design to fit into my theme of ***Digital Folklore***
+- I will try and come up with ideas for several windows that make reference to early computer culture, as well as modern day
+- I want to bring in my MS Paint window from the Workshop Tasks assignment
+- Figure out how to make windows on the desktop open and closeable at the users' control
+
+# Starting the Main Coding
+
+
+
+
+
