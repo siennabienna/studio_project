@@ -5,13 +5,13 @@ Link to Webpage: https://siennabienna.github.io/studio_project/
 ## Deciding on the theme ***Digital Folklore***
 - I want to explore the origins of how computer culture has developed
 - In my past experiments in the workshop tasks assignment, I enjoyed using humour, and I feel like I could connect this with internet identity and the idea of a 'meme'
-- Online social spaces have always fascinated me, and I love to analyse the origins of trends on Tik Tok and Instagram from an outsiders perspective, and how different comminuties have developed to be the way that they are today
-- I want to be able to reference to the early stages of online internet spaces - a crucial part of the development of modern technology culture
+- Online social spaces have always fascinated me, and I love to analyse the origins of trends on Tik Tok and Instagram from an outsiders perspective, and how different communities have developed to be the way they are today
+- I want to be able to reference the early stages of online internet spaces - a crucial part of the development of modern technology culture
 - In the workshop tasks, one thing that sparked this idea was using the old MS Paint background on the webcam art for workshop 9
-- As my audience for this project is an internet audience, I want to be able to make these specific references that only this audience will understand
-- I'm fascinated by how the internet was really the first 'place' on earth where people from comepletely different countries, cultures, identites and personalities could come together though shared interests on forums - it was a a way for personal expression to thrive without the confines of real life
-- I want to explore the ways the artspace found itself on the internet - art was freed from the exclusivity of the art world and was avalible to make and view by anyone with an internet connection for the first time ever
-- As someone who belives in the deinstitutionalization of art, this sounded like something I am willing to explore myself - I want to create some sort of artwork that can be viewed, changed, and understood by anyone in the world dispite economic or educational background
+- As my audience for this project is an internet audience, I want to be able to make specific references that only this audience will understand
+- I'm fascinated by how the internet was really the first 'place' on earth where people from completely different countries, cultures, identites and personalities could come together though shared interests on forums - it was a way for personal expression to thrive without the confines of real life
+- I want to explore the ways the artspace found itself on the internet - art was freed from the exclusivity of the art world and was available to make and view by anyone with an internet connection for the first time ever
+- As someone who believes in the deinstitutionalization of art, this sounded like something I am willing to explore myself - I want to create some sort of artwork that can be viewed, changed, and understood by anyone in the world despite their economic or educational background
 
 
 ![image](https://github.com/user-attachments/assets/f44f1192-4907-4404-9157-b9910b63b879)
@@ -27,8 +27,8 @@ One of the first viral internet memes - Dancing Baby (1996)
 - Not try to convey a storyline, but more an idea or feeling (doesn't have to be accurate to the early internet, but more as a representation of what once was)
 
 ## Ideas for Code
-- Some sort of interactive sketch using the user imput events learned in workshop tasks, perhaps similar to an old online forum (like very early Facebook, perhaps the user is able to navigate between different 'profiles' that all work together to discuss some type of modern day subject like AI)
-- A gallery type sketch of memories - showing parts of the early internet that has significant impacts (such as the development of URLs or the beginning of code), or perhaps things that shaped me and my internet journey (things like club penguin, early youtube, cool math games, and maybe a reference to my parents old computer that had a very loud fan and would heat up horribly) - The gallery could be a mixture of images, text, and interactive aspects like letting the user draw all over it with a pen tool
+- Some sort of interactive sketch using the user input events learned in workshop tasks, perhaps similar to an old online forum (like very early Facebook, perhaps the user is able to navigate between different 'profiles' that all work together to discuss some type of modern day subject like AI)
+- A gallery type sketch of memories - showing parts of the early internet that has significant impacts (such as the development of URLs or the beginning of code), or perhaps things that shaped me and my internet journey (things like club penguin, early youtube, cool math games, and maybe a reference to my parents' old computer that had a very loud fan and would heat up horribly) - The gallery could be a mixture of images, text, and interactive aspects like letting the user draw all over it with a pen tool
 - A desktop screensaver type of page where each icon could be opened into a new piece of interactive art - some might have silly old GIFs, some might have just text, some might have images relevant to current culture (but made to fit in the theme by turning them into GIFs or using pixels)
 
 ## Preliminary Code Experiments
@@ -39,9 +39,9 @@ I decided that the idea I connected with best was the desktop page with differen
 My idea for how the desktop should look - I want it to feel/represent an old desktop.
 
 ### Problemsolving Window Sizing
-Desktop screens in the 90s were often in 4/3 screen ratio, so I wanted to try making it to that size. I wanted to make it so that if the browser was resized by the user, it would still maintain this ratio.
+Desktop screens in the 90s were often in 4:3 screen ratio, so I wanted to try making it to that size. I wanted to make it so that if the browser was resized by the user, it would still maintain this ratio.
 - I want it so that the desktop always has a 4:3 ratio width to height
-- I want it so the desktop always fits inside the screen, and for it to fit it needs to be smaller that both the width and height of the screen
+- I want it so the desktop always fits inside the screen, and for it to fit it needs to be smaller than both the width and height of the screen
 - When the width is the smaller dimension, I can use that dimension as the width, and then shorten it to get the height
 - The height becomes the smaller dimension when it's less than the width scaled down by 3/4, because that means even if you scale the width down, it would still be bigger than the height measurement, thus overflowing the screen
 
@@ -98,27 +98,27 @@ I was super happy with the result!
 - I want to start designing the icons and windows that will be openable on the desktop. I want to do them in old Windows 95 design to fit into my theme of ***Digital Folklore***
 - I will try and come up with ideas for several windows that make reference to early computer culture, as well as modern day
 - I want to bring in my MS Paint window from the Workshop Tasks assignment
-- Figure out how to make windows on the desktop open and closeable at the users' control
+- Figure out how to make windows on the desktop open and closeable at the user's control
 
 # Starting with the Main Project
 ### Designing the Windows
-I First started the project by doing some rough drawings for what I wanted on the pop-up windows.
+I first started the project by doing some rough drawings for what I wanted on the pop-up windows.
 
 ![image](https://github.com/user-attachments/assets/ef681796-3e20-4680-a27e-eb7d5de73c0d)
 
-My first Idea was to create a simulation of an online forum using the same input techniques from the poem code from the workshop tasks. I based this sketch off of Usenet, which I found after some research was a very very early online chat room established in 1980. 
+My first idea was to create a simulation of an online forum using the same input techniques from the poem code from the workshop tasks. I based this sketch off of Usenet, which I found after some research was a very very early online chat room established in 1980. 
 
 ![image](https://github.com/user-attachments/assets/4656651f-8a5b-48bd-86cb-decc35080327)
 
 A screenshot from a 2004 chatroom on Usenet. I thought this would be important to include as I wanted to make references to the forum culture on the early internet, and how primitive chat rooms were the first steps to the social media giants we have today.
 
-For this window, I wanted it to include a reference to those modern day message spaces, so I put something that somebody may text over an Instagram chat in 2025 in as the chat. By putting something unexprectantly modern in, I wanted the user to make a mental reference to where we are now as a stark comparison. 
+For this window, I wanted it to include a reference to those modern day message spaces, so I put something that somebody may text over an Instagram chat in 2025 in as the chat. By putting something unexpectedly modern in, I wanted the user to make a mental reference to where we are now as a stark comparison. 
 
 Here was my design for it that I made in Google Drawings:
 
 ![image](https://github.com/user-attachments/assets/102a2ec6-911f-4666-a5a1-bb99b4c7e183)
 
-My next idea was for a slow loading image. After watching some videos on Youtube about the early internet, I found out two things - one, Bill Clinton was the first US President to send a message over email, and was very involved in making the digital age more acessable. The second thing was how images used to load. Due to the lack of processing power old computers had to modern day, images were compressed and would load slowly in chunks from bottom to top. I had an idea to try and replicate this using `set interval`.
+My next idea was for a slow loading image. After watching some videos on Youtube about the early internet, I found out two things - one, Bill Clinton was the first US President to send a message over email, and was very involved in making the digital age more accessable. The second thing was how images used to load. Due to the lack of processing power old computers had compared to modern day, images were compressed and would load slowly in chunks from top to bottom. I had an idea to try and replicate this using `set interval`.
 
 ![image](https://github.com/user-attachments/assets/00b17d47-e146-4716-b7dd-88b522dd7ae2)
 
@@ -128,7 +128,7 @@ Another idea I had was to make a CD Player window.
 
 ![image](https://github.com/user-attachments/assets/00fe1c50-a6d1-434b-be04-2affc5e737ef)
 
-My idea came whilst scolling through old pop-culture references online and finding an old playlist. I thought that using some sort of CD Player would make a reference to this older type of technology, as not many people need to use CDs anymore. I also thought that Backstreet Boys was relevent and I wanted to see if I could figure out how to add sound. I also had an idea to record the song through a voice message on my phone so the quality would be distorted (please don't come for me copyright) and would feel more like a lower definition version that would have been more common back then. I also feel like there was a large [community of people who would pirate media](https://thenextweb.com/news/a-nostalgic-look-back-at-digital-music-piracy-in-the-2000s) back when the World Wide Web was created.
+My idea came whilst scrolling through old pop-culture references online and finding an old playlist. I thought that using some sort of CD Player would make a reference to this older type of technology, as not many people need to use CDs anymore. I also thought that Backstreet Boys was relevent and I wanted to see if I could figure out how to add sound. I also had an idea to record the song through a voice message on my phone so the quality would be distorted (please don't come for me copyright) and would feel more like a lower definition version that would have been more common back then. I also feel like there was a large [community of people who would pirate media](https://thenextweb.com/news/a-nostalgic-look-back-at-digital-music-piracy-in-the-2000s) back when the World Wide Web was created.
 
 My finished drawing of the CD player:
 
@@ -144,7 +144,7 @@ My finished drawing for the Media Player:
 
 ![image](https://github.com/user-attachments/assets/c69e7109-3807-4c15-ae40-bb5eadca8caa)
 
-My last idea was for an old coding window that would allow for the coding world to become part of the artwork. I wanted the user to remember that the desktop was made using an alorithim and be shown the hard work that goes into that. 
+My last idea was for an old coding window that would allow for the coding world to become part of the artwork. I wanted the user to remember that the desktop was made using an algorithm and be shown the hard work that goes into that. 
 
 ![image](https://github.com/user-attachments/assets/335edafd-07e0-4795-8a70-1ed78b87d4cb)
 
@@ -223,7 +223,7 @@ function drawPaintWindow() {
 ```
 The code that draws the window is separated from the code that opens it so that when a window is closed, the canvas with the drawing of the desktop can be refreshed and all the backgrounds of the windows that are open can be re-drawn, without also re-doing all the operations on the buttons or the actual behaviour of the window. 
 
-I did this by using the variable `isPaintOpen` in an `if` statement to know whether or not to draw the background in the fuction `refreshDesktop`. I got the idea of seperating opening the window and drawing the window because the code for MS Paint needs to create a reference to the webcam everytime the window is opened. I thought that would be too computationally expensive to do everytime the desktop is refreshed.
+I did this by using the variable `isPaintOpen` in an `if` statement to know whether or not to draw the background in the function `refreshDesktop`. I got the idea of seperating opening the window and drawing the window because the code for MS Paint needs to create a reference to the webcam everytime the window is opened. I thought that would be too computationally expensive to do everytime the desktop is refreshed.
 
 ```js
 function refreshDesktop() {
@@ -260,9 +260,9 @@ This is the function I used to close the window when the user presses the x butt
 
 ## Coding the Music Player
 
-Next, I decided to code the music player, as I wanted to see if I could add music to my code easily. To start, I first added the same opening and closing setup as the paint window and the paint icon, by explanding the functions `addButtons()` and  `openDesktop()` and adding some new functions  `openCDPlayer()`, `drawCDPlayer()` and `closeCDPlayer()`. 
+Next, I decided to code the music player, as I wanted to see if I could add music to my code easily. To start, I first added the same opening and closing setup as the paint window and the paint icon, by expanding the functions `addButtons()` and  `openDesktop()` and adding some new functions  `openCDPlayer()`, `drawCDPlayer()` and `closeCDPlayer()`. 
 
-I found a [useful sketch](https://editor.p5js.org/p5/sketches/Sound:_Load_and_Play_Sound) on p5 to point me in the right direction for adding the music. I first sarted by loading a recording of a Backstreet Boys song I had made into the code, `backstreetBoys = loadSound("minden_road.m4a");`. I chose to use the Backstreet Boys as I felt an older song would contribute to my goal for the artwork to create the feeling of being on an old desktop. Also I thought it was funny.
+I found a [useful sketch](https://editor.p5js.org/p5/sketches/Sound:_Load_and_Play_Sound) on p5 to point me in the right direction for adding the music. I first started by loading a recording of a Backstreet Boys song I had made into the code, `backstreetBoys = loadSound("minden_road.m4a");`. I chose to use the Backstreet Boys as I felt an older song would contribute to my goal for the artwork to create the feeling of being on an old desktop. Also I thought it was funny.
 
 ```js
 cdPlayerPlay = createImg("void.png");
@@ -292,7 +292,7 @@ I then made 2 functions `playMusic()` and `stopMusic()` that would start and sto
 
 For this window I also added some new variables `cdPlayerX`, `cdPlayerY`, `cdPlayerWidth`, `cdPlayerHeight` to help me position the window and the various buttons in it more consistently. I kept this habit for all the following windows.
 
-After some feeback from some peers, I was advised to make it so that pressing the corner x button would stop the music as well as the stop button on the window. To do this, I added the line `backstreetBoys.stop()` to the `closeCDPlayer()` function. 
+After some feedback from some peers, I was advised to make it so that pressing the corner x button would stop the music as well as the stop button on the window. To do this, I added the line `backstreetBoys.stop()` to the `closeCDPlayer()` function. 
 
 ## Coding the Movie Player
 
@@ -315,7 +315,7 @@ After coding the previous windows, I came up with the idea for an Internet Explo
 
 I had quite a lot of fun designing this one.
 
-Starting with the same open and close setup, I made a window with a clickable download button with the 'void' image technique. I then wrote the function `showCats()`, that uses a for loop to add a bunch of clickable images of cats, by picking random strings from a list of image file names `catPictures`. The function then positions the image randomly on the screen, and I used an anonymous function so that when the user clicks on a cat image, the image closes.
+Starting with the same open and close setup, I made a window with a clickable download button with the 'void' image technique. I then wrote the function `showCats()`, that uses a `for` loop to add a bunch of clickable images of cats, by picking random strings from a list of image file names `catPictures`. The function then positions the image randomly on the screen, and I used an anonymous function so that when the user clicks on a cat image, the image closes.
 
 ```js
   closeInternetBtn = createImg("void.png");
@@ -334,7 +334,7 @@ Starting with the same open and close setup, I made a window with a clickable do
 
 To make the Online Forum window, I wanted it to operate like the simple user input code I made during the poem workshop in the last assignment. I added an input box and a button, and I made the input box transparent using CSS, as I learned to do in the last assignment.
 
-The regular font seemed to have a bug in it, and the letters were being drawn overtop of each other, so I asked my coding friend Ghen for help. He helped me add some code to the HTML that grabs a font from a font file and sets it as the font for the whole website, with CSS.
+The regular font didn't match the Windows 95 aesthetic, so I asked my coding friend Ghen for help. He helped me add some code to the HTML that grabs a font from a font file and sets it as the font for the whole website, with CSS. We found the actual Windows 95 font for this.
 
 ```css
 <style>
@@ -359,7 +359,7 @@ function addMessageToForum() {
 }
 ```
 
-In the function that draws the forum window, I added some code that writes all the messages stored in the array with `text()` commands. For this to look right, I used the `loadFont()` function to be able to use a custom font font in p5. I refreshed my memory for this function on [this page](https://p5js.org/reference/p5/loadFont/#:~:text=loadFont()%20can%20load%20fonts,canvas%20and%20in%20HTML%20elements.).
+In the function that draws the forum window, I added some code that writes all the messages stored in the array with `text()` commands. For this to look right, I used the `loadFont()` function to be able to use a custom font in p5. I refreshed my memory for this function on [this page](https://p5js.org/reference/p5/loadFont/#:~:text=loadFont()%20can%20load%20fonts,canvas%20and%20in%20HTML%20elements.).
 
 ```js
 let messages = [];
@@ -385,13 +385,13 @@ codeScreen = createSpan(addButtons);
 ```
 I tried it out and this would create a span that has all the code for the `addButtons()` function in it.
 
-I found that even if I set a constrained size to the span, the text would just overflow out of it. I did some research and found this [article](https://www.w3schools.com/css/css_overflow.asp), which explains you can use CSS to make it so the overflowing text is handled by adding a scrollbar to the span. I added this line here to make it work on my span. I used the code for all the buttons in my project for this window.
+I found that even if I set a constrained size to the span, the text would just overflow out of it. I did some research and found this [article](https://www.w3schools.com/css/css_overflow.asp), which explains you can use CSS to make it so the overflowing text span is handled by adding a scrollbar to the span. I added this line here to make it work on my span. I used the code for all the buttons in my project for this window.
 
 ```js
 codeScreen.style("overflow-y", "scroll");
 ```
 
-I then just shifted the coordinates of the textbox so that the scrollbar would sit well over the image for the window that I had made. 
+I then just shifted the coordinates of the span so that the scrollbar would sit well over the image for the window that I had made. 
 
 ```js
   closeCodeBtn = createImg("void.png");
@@ -406,10 +406,10 @@ I then just shifted the coordinates of the textbox so that the scrollbar would s
   codeScreen.hide();
 ```
 # Final Refelction
-I really enjoyed the coding for this assignemnt, and once I had figured out how to open and close the windows okay with the 'void' buttons, I found I had more creative space to try out some new coding ideas, as well as develop on some of the ones I learned in the workshops assignment. I am very proud of my little desktop.
+I really enjoyed the coding for this assignment, and once I had figured out how to open and close the windows okay with the 'void' buttons, I found I had more creative space to try out some new coding ideas, as well as develop on some of the ones I learned in the workshops assignment. I am very proud of my little desktop.
 
 # Ideas for Further Development 
-- I had some feedback from a peer in the Discord server suggesting I should attempt to fix the issue with the layering of the windows. This was a problem due to the way the windows were drawn, the webcam and the GIFs needed to be drawn every frame whilst the images were not. Unfortunatly I didn't have time to fix this, but if I was to spend more time on this project I would like to
+- I had some feedback from a peer in the Discord server suggesting I should attempt to fix the issue with the layering of the windows. This was a problem due to the way the windows were drawn, the webcam and the GIFs needed to be drawn every frame whilst the images were not. Unfortunately I didn't have time to fix this, but if I was to spend more time on this project I would like to fix this
 - Add more windows to the project that make more references to early computer culture, and perhaps even find a way to make the windows moveable and have full-screen option for each one
 - Make it so that the time in the bottom corner reflects the real time and is not just an image
 - Add a recycle bin that could be opened to have pictures and other documents in it that could be opened by the user
